@@ -3,27 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- <link rel="stylesheet" href="https://jsdelivr.net"> -->
+    <script src="styles.js"></script>
+
+
+
     <title>Meus Links</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="styles.js"></script>
 
 </head>
 <body class="
     bg-gray-800
     ">
 
-    <header 
-    class="
-    bg-white
-    p-5
-    text-center
-
-    ">
-        <div>
-            Aqui vai um texto do header
-        </div>
-
-    </header>
 
     <main
     class="
@@ -42,90 +39,57 @@
         ">
             <section 
             class="
+            mt-0
 
 
             ">
-                <h1
-                class="
-                p-10
-                font-mono
-                font-semibold
-                tracking-wide
-                text-2xl
-        
-                ">Meus links</h1>
-            
-                <div class="
-                p-10
-                flex
-                flex-col
-                bg-emerald-800
-                bg-opacity-30
-                rounded-3xl
+            <div class="
+            p-10
+            flex
+            flex-col
+            bg-green-500
+            border-black
+            border-2
+            bg-opacity-70
+            rounded-3xl
+            max-w-screen-sm
 
-                ">
+            ">
+                <div>
+                    <img src="avatar.png" alt="avatar" 
+                    class="my-0 mx-auto rounded-full border-black border-2">
+                    <h1
+                    class="
+                    p-2
+                    font-mono
+                    font-semibold
+                    tracking-wide
+                    text-2xl
+                    ">Leonardo Stürmer</h1>
+                    <p
+                    class="
+                    p-2
+                    font-mono
+                    tracking-tighter
+
+                    
+                    ">
+                        Conheça meu trabalho, portfólio e entre em contato
+                    </p>
+                </div>
+            
+
                     <a href="https://github.com/leosturmer" target="_blank"
-                    class="
-                    font-mono
-                    text-black
-                    font-medium
-                    text-xl
-                    p-3
-                    m-3
-                    min-w-80
-                    bg-emerald-600
-                    border-black
-                    border-2
-                    rounded-full
+                    data-style="linkPrincipal"> 
+                   
+                    GitHub</a>
 
-
-
-                    hover:bg-emerald-200
-                    hover:text-black
-                    hover:border-green-950
-                    hover:underline
-
-
-                    ">GitHub</a>
                     <a href="https://linkedin.com/in/leosturmer" target="_blank"
-            
-                    class="
-                    font-mono
-                    text-black
-                    font-medium
-                    text-xl
-                    p-3
-                    m-3
-                    min-w-80
-                    bg-emerald-600
-                    border-black
-                    border-2
-                    rounded-full
-                    hover:bg-emerald-200
-                    hover:text-black
-                    hover:border-green-950
-                    hover:underline
-                    ">LinkedIn</a>
+                    data-style="linkPrincipal">LinkedIn</a>
             
                     <a href="mailto:leo_sturmer@hotmail.com" target="_blank"
             
-                    class="
-                    font-mono
-                    text-black
-                    font-medium
-                    text-xl
-                    p-3
-                    m-3
-                    min-w-80
-                    bg-emerald-600
-                    border-black
-                    border-2
-                    rounded-full
-                    hover:bg-emerald-200
-                    hover:text-black
-                    hover:border-green-950
-                    hover:underline
-                    ">E-mail</a>
+                    data-style="linkPrincipal">E-mail</a>
                 </div>
             
             </section>
@@ -133,10 +97,10 @@
 
     </main>
     
-    <footer class="bg-white static">
+    <!-- <footer class="bg-white static">
         <div>
             Aqui vai um texto do footer
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
